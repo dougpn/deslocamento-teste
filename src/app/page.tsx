@@ -1,10 +1,7 @@
 /* Components */
 import { Counter } from './components/Counter/Counter'
+import Dashboard from './components/Counter/Dashboard'
 
 export default function IndexPage() {
-  return <Counter />
-}
-
-export const metadata = {
-  title: 'Redux Toolkit',
+  return <Dashboard />
 }
